@@ -1,6 +1,6 @@
 {
   "name": "@zguillez/z-log",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Tools for console.logs",
   "keywords": [
     "log",
