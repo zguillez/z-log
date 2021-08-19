@@ -4,5 +4,5 @@ const zversion = require('@zguillez/z-version');
 const zgit = require('@zguillez/z-git');
 // -----------------------------------
 zversion.update();
-zgit.push('master', 'update');
+zgit.push('main', 'update');
 zlog.success('=> Done!');

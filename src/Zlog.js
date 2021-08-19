@@ -40,6 +40,13 @@ class Zlog {
   error(text) {
     console.log(`${text}`.red);
   }
+
+  /**
+   * force log
+   */
+  force(text) {
+    console.log(`${text}`.magenta);
+  }
 }
 
 /**
