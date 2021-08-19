@@ -1,6 +1,6 @@
 {
   "name": "@zguillez/z-log",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Tools for console.logs",
   "keywords": [
     "log",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@zguillez/z-git": "^0.1.15",
-    "@zguillez/z-log": "^0.1.4",
+    "@zguillez/z-log": "^0.1.9",
     "@zguillez/z-version": "^0.2.1",
     "eslint": "7.32.0",
     "eslint-config-google": "0.14.0",

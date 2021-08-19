@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1629413682639" clover="3.2.0">
-  <project timestamp="1629413682639" name="All files">
+<coverage generated="1629413738596" clover="3.2.0">
+  <project timestamp="1629413738597" name="All files">
     <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="14" coveredelements="14" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
     <file name="Zlog.js" path="/Users/zguillez/Repositorios/_tools/z-log/src/Zlog.js">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
