@@ -24,12 +24,14 @@ yarn add z-log --dev
 const zlog = require('z-log');
 ```
 
-## Update package version
+## Print console.logs
 
 ```
-zlog.update();
-zlog.update('minor');
-zlog.update('major');
+zlog.log('test log');
+zlog.success('success log');
+zlog.warning('warning log');
+zlog.info('info log');
+zlog.error('error log');
 ```
 
 # Contributing and issues

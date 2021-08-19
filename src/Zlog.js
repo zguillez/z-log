@@ -7,10 +7,38 @@ require('colors');
  */
 class Zlog {
   /**
-   * Update de package version
+   * default console.log
    */
   log(text) {
-    console.log(`text`.green);
+    console.log(text);
+  }
+
+  /**
+   * success log
+   */
+  success(text) {
+    console.log(`${text}`.green);
+  }
+
+  /**
+   * warning log
+   */
+  warning(text) {
+    console.log(`${text}`.yellow);
+  }
+
+  /**
+   * info log
+   */
+  info(text) {
+    console.log(`${text}`.cyan);
+  }
+
+  /**
+   * error log
+   */
+  error(text) {
+    console.log(`${text}`.red);
   }
 }
 

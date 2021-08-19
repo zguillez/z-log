@@ -1,6 +1,6 @@
 {
-  "name": "z-log",
-  "version": "0.1.1",
+  "name": "@zguillez/z-log",
+  "version": "0.1.2",
   "description": "Tools for console.logs",
   "keywords": [
     "log",
@@ -16,10 +16,12 @@
   },
   "main": "index.js",
   "scripts": {
+    "clean": "find ./ -name .DS_Store -exec rm -f {} \\;",
     "lint": "eslint index.js src/*.js bin/*.js --fix || true",
-    "prepare": "npm run lint && npm run test && sort-package-json &&  bin/prepare.js",
+    "prepare": "npm run lint && npm run test && sort-package-json && bin/prepare.js",
     "test": "jest --coverage",
-    "test_": "node ./example/index.js"
+    "test_": "node ./example/index.js",
+    "publish": "npm publish --access=public"
   },
   "dependencies": {
     "colors": "1.4.0"
