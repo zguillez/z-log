@@ -7,7 +7,7 @@
 
 > [Zguillez](https://zguillez.io) | Guillermo de la Iglesia
 
-## Tools for console.log()
+## Helper for console.log()
 
 # Getting Started
 
