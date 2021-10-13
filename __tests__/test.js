@@ -1,5 +1,5 @@
 const app = require('../src/Zlog');
-test('dummy test', () => {
+test('app test', () => {
   expect(app.log('test')).toBeUndefined();
   expect(app.success('test')).toBeUndefined();
   expect(app.warning('test')).toBeUndefined();
