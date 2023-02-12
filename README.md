@@ -43,7 +43,7 @@ project retain their original licenses.
 
 # Changelog
 
-### v0.1.16 (February 12, 2023)
+### v0.1.21 (February 12, 2023)
 
 * Update dependencies
 
